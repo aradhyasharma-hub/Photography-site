@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main_box{
+    background-image: url(camn.webp);
+    background-size: cover;
+    height: 100vh;
+}
+
+.btn_one{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+}
+
+.sidebar_menu{
+    position: fixed;
+    left: -400px;
+    height: 100vh;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.124);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.9);
+}
+
+
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 50px;
+    color: white;
+    left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
+    /* margin-left: 10px; */
+    height: 60px;
+}
+
+.sidebar_menu .btn_two{
+    color: rgb(248, 245, 245);
+    font-size: 25px;
+    position: absolute;
+    left: 91%;
+    line-height: 60px;
+}
+
+.sidebar_menu .btn_two i{
+    cursor: pointer;
+}
+
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+    color: white;
+}
+
+.sidebar_menu .menu i,a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sidebar_menu .menu i {
+    padding-right: 6px;
+}
+
+
+.social_media {
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+    /* font-size: 19px; */
+}
+.social_media ul a{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 25px;
+}
+#check{
+    display: none;
+}
+
+
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
+
+}
+.sidebar_menu .menu li a:hover{
+    color: bisque;
+    font-size: 22px;
+    transition: 0.1s;
+}
+
+#check:checked ~ .sidebar_menu{
+    left: 0;
+    transition: 0.3s;
+}
+
+#check:checked ~ .btn_one i{
+    display: none;
+}
+
+#check ~ .btn_one:hover{
+    cursor: pointer;
+}
+
+.social_media ul a i:hover{
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+.btn_two i:hover{
+    font-size: 1.9rem;
+    transition: 0.1s;
+}
+.btn_one i:hover{
+    font-size: 2.3rem;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+#face:hover{
+    color: rgb(64, 91, 226);
+}
+
+#twit:hover{
+    color: rgb(47, 190, 252);
+}
+
+#inst:hover{
+    color: rgb(219, 44, 146);
+}
+
+#yt:hover{
+    color: rgb(204, 46, 46);
+}
+
