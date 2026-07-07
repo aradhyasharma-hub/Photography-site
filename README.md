@@ -24,8 +24,6 @@ A modern and responsive photography portfolio website designed to showcase photo
 
 ---
 
----
-
 ## 💻 Getting Started
 
 Clone the repository
