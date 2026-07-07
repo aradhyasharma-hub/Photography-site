@@ -24,14 +24,6 @@ A modern and responsive photography portfolio website designed to showcase photo
 
 ---
 
-## 📁 Project Structure
-
-```
-├── index.html
-├── style.css
-└── images/
-```
-
 ---
 
 ## 💻 Getting Started
